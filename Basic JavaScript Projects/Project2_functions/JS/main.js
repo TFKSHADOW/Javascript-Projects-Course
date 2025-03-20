@@ -12,3 +12,9 @@ function updateContent() {
 function addText() {
     document.getElementById("concatenate").innerHTML += " and this is the continuation.";
 }
+
+
+// my own function challenge    Change Background Color
+document.getElementById("colorBtn").addEventListener("click", function() {
+    document.body.style.backgroundColor = "lightblue";
+});
